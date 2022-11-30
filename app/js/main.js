@@ -1,5 +1,9 @@
 $(function () {
 
+  $('.header-top__right-lists__btn').on('click', function () {
+    $('.header-top__right-lists').toggleClass('header-top__right-lists--active')
+  });
+
   $(function () {
     $.fn.scrollToTop = function () {
       $(this).hide().removeAttr("href");
