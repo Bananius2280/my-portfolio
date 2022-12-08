@@ -1,6 +1,6 @@
 $(function () {
 
-  $('.header-top__right-lists__btn').on('click', function () {
+  $('.header-top__burger').on('click', function () {
     $('.header-top__right-lists').toggleClass('header-top__right-lists--active')
   });
 
