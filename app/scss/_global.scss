@@ -4,3 +4,24 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.title {
+  position: relative;
+  @extend %titillium-700;
+  text-align: center;
+  font-size: 40px;
+  line-height: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  &::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 87px;
+    background-color: #ffffff36;
+    bottom: -22px;
+
+  }
+}
